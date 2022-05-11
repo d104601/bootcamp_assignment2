@@ -11,3 +11,4 @@ https://d104601.github.io/bootcamp_assignment2/
 * Responsive layout as screen size
 
 ## Website Design
+![Sample]()
