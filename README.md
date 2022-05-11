@@ -9,3 +9,5 @@ https://d104601.github.io/bootcamp_assignment2/
 * Scrolls to the corresponding section as click the link
 * First application's image should be larger in size than the others as presented
 * Responsive layout as screen size
+
+## Website Design
