@@ -81,14 +81,17 @@ section article{
 
 section ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
     margin: 15px auto;
 }
 
 .card {
+    max-width: 450px;
+    max-height: 450px;
     position: relative;
     margin: 15px 15px;
+    background-color: #fff;
 }
 
 .card h2 {
@@ -97,8 +100,10 @@ section ul {
 }
 
 .card img {
-    max-width: 450px;
     opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .card img:hover {
