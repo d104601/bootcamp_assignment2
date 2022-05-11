@@ -13,6 +13,11 @@ body {
     background-color: #303030;;
 }
 
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h1 {
     font-size: 200%;
     margin: auto 3%;
@@ -64,24 +69,19 @@ section {
     justify-content: space-around;
     text-align: center;
     margin: 5% auto;
-    border: solid;
-    border-color: #fff;
-    border-radius: 15px;
 }
 
 section p{
+    display: flex;
     text-align: justify;
+    position: relative;
     margin: 15px 15px;
 }
 
-section article{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 section ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 15px auto;
 }
@@ -96,7 +96,6 @@ section ul {
 
 .card h2 {
     margin: auto;
-    width: 50%;
 }
 
 .card img {
@@ -108,6 +107,13 @@ section ul {
 
 .card img:hover {
     opacity: 1;
+}
+
+#profile {
+    max-width: 200px;
+    position: relative;
+    margin: 15px 15px;
+    align-items: center;
 }
 
 
