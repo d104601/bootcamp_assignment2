@@ -16,6 +16,7 @@ body {
 article{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 h1 {
@@ -66,7 +67,7 @@ main h1 {
 }
 
 section {
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     margin: 5% auto;
 }
@@ -110,7 +111,7 @@ section ul {
 }
 
 #profile {
-    max-width: 200px;
+    width: 200px;
     position: relative;
     margin: 15px 15px;
     align-items: center;
@@ -137,7 +138,7 @@ section ul {
   }
 
   section article{
-    flex-direction: column;
+      flex-direction: column;
   }
 
   section ul{
