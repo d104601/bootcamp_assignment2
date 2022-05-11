@@ -117,7 +117,11 @@ section ul {
     align-items: center;
 }
 
+#first-app {
+    max-width: 900px;
+    max-height: 900px;
 
+}
 
 @media screen and (max-width: 768px) {
   header {
