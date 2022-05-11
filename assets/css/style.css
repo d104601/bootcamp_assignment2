@@ -57,24 +57,30 @@ main {
 }
 
 main h1 {
-    margin-bottom: 15px;
+    margin: 15px 15px;
 }
 
 section {
     justify-content: space-around;
     text-align: center;
     margin: 5% auto;
+    border: solid;
+    border-color: #fff;
+    border-radius: 15px;
 }
 
 section p{
     text-align: justify;
+    margin: 15px 15px;
 }
 
 section ul {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     list-style-type: none;
+    margin: 15px auto;
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -88,5 +94,9 @@ section ul {
 
   section ul{
       display:block;
+  }
+
+  section li {
+      margin: 15px auto;
   }
 }
