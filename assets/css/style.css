@@ -74,11 +74,35 @@ section p{
     margin: 15px 15px;
 }
 
+section article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section ul {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 15px auto;
+}
+
+.card {
+    position: relative;
+    margin: 15px 15px;
+}
+
+.card h2 {
+    margin: auto;
+    width: 50%;
+}
+
+.card img {
+    max-width: 450px;
+    opacity: 0.5;
+}
+
+.card img:hover {
+    opacity: 1;
 }
 
 
@@ -92,8 +116,21 @@ section ul {
       margin: 15px auto;
   }
 
+  nav ul{
+      display: block;
+      text-align: center;
+  }
+
+  nav li{
+      margin: 10px auto;
+  }
+
+  section article{
+    flex-direction: column;
+  }
+
   section ul{
-      display:block;
+      display: block;
   }
 
   section li {
